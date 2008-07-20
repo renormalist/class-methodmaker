@@ -16,6 +16,7 @@
 ^lib/Class/MethodMaker\.(?:bs|o|c)$
 ^html(?:/.*)?$
 ^(.*/)?.cvsignore$
+^(.*/)?.svnignore$
 ^INFO.yaml$
 ^_build/
 ^misc/

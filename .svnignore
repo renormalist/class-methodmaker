@@ -1,0 +1,10 @@
+MethodMaker.c
+Class-MethodMaker-2.*.tar.gz
+MethodMaker.bs
+pm_to_blib
+blib
+Makefile
+lib/Class/MethodMaker/scalar.pm
+lib/Class/MethodMaker/array.pm
+lib/Class/MethodMaker/hash.pm
+

@@ -1,6 +1,6 @@
 --- #YAML:1.0
 name:                Class-MethodMaker
-version:             2.11
+version:             2.12
 abstract:            a module for creating generic methods
 license:             ~
 author:              

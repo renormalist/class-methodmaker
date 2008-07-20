@@ -1,5 +1,8 @@
 Revision History for Class::MethodMaker (versions 2)
 
+2.12	Jul 20 2008
+	- fixed warnings: Name " X::foo" used only once (#35840, #37023)
+
 2.11	Mar 24 2008
 	- Drop Module::Build support
 	  (which was broken anyway for a long time, #19167, #16241, #17059, #15987, #13755)

@@ -20,6 +20,7 @@ lib/Class/MethodMaker/V1Compat.pm
 Makefile.PL
 MANIFEST
 MANIFEST.SKIP
+META.yml
 MethodMaker.xs
 README
 SIGNATURE

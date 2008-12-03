@@ -25,4 +25,4 @@
 ^lib/Class/MethodMaker.xs$
 .git
 .gitignore
-
+^Class-MethodMaker-.*\..*$

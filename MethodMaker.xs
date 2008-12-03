@@ -4,8 +4,11 @@
 
 MODULE = Class::MethodMaker PACKAGE = Class::MethodMaker
 
-void
+int
 set_sub_name(SV *sub, char *pname, char *subname, char *stashname)
+  INIT:
+    if (!SvTRUE(ST(1)) || !SvTRUE(ST(2)) || !SvTRUE(ST(3)) || !SvTRUE(ST(4)))
+      XSRETURN_UNDEF;
   CODE:
     CvGV((GV*)SvRV(sub)) = gv_fetchpv(stashname, TRUE, SVt_PV);
     GvSTASH(CvGV((GV*)SvRV(sub))) = gv_stashpv(pname, 1);
@@ -15,3 +18,4 @@ set_sub_name(SV *sub, char *pname, char *subname, char *stashname)
     GvNAME(CvGV((GV*)SvRV(sub))) = savepv(subname);
     GvNAMELEN(CvGV((GV*)SvRV(sub))) = strlen(subname);
 #endif
+    RETVAL = 1;

@@ -778,7 +778,8 @@ sub install_methods {
         *{$methname} = $code;
         # Generate a unique stash name for the sub.  Use a preceding space
         # to avoid collisions with anything in the Perl space.
-        Class::MethodMaker::set_sub_name($code, $target, $name, "${target}::${name}");
+        croak "Could not create stash name for '$name'"
+          unless Class::MethodMaker::set_sub_name($code, $target, $name, "${target}::${name}");
       }
     } else {
       croak "What do you expect me to do with this?: $code\n";

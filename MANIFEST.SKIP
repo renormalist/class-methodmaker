@@ -2,7 +2,6 @@
 ^(.*/)?.svn/.*
 ^Makefile(.old)?$
 ^Build$
-^META.yml$
 ^Clean$
 ^RollingBuild$
 ^blib/.*

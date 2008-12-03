@@ -40,6 +40,11 @@ Discussion:
 
   class-mmaker-devel@lists.sourceforge.net
 
+Public Repository:
+
+  git clone git://github.com/renormalist/class-methodmaker.git
+  See also: http://github.com/renormalist/class-methodmaker
+
 Copyright: 
 
     Copyright (c) 2004, 2003, 2002, 2001, 2000 Martyn J. Pearce.  This program

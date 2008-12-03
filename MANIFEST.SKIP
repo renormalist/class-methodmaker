@@ -24,3 +24,6 @@
 ^make-dist$
 ^MethodMaker\.(?:bs|o|c)$
 ^lib/Class/MethodMaker.xs$
+.git
+.gitignore
+

@@ -1,0 +1,10 @@
+Makefile
+MethodMaker.bs
+MethodMaker.c
+MethodMaker.o
+blib/
+lib/Class/MethodMaker/array.pm
+lib/Class/MethodMaker/hash.pm
+lib/Class/MethodMaker/scalar.pm
+pm_to_blib
+

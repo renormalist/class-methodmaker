@@ -44,6 +44,11 @@ displays this issue with 2.00, that wouldd be great.
 
 =cut
 
+my $if_MSWin = $^O =~ m/MSWin/ ? 'Skip if under MSWin' : '';
+if ($if_MSWin) {
+        skip($if_MSWin, 1, 1, "No warnings generated" );
+}
+else
 {
   save_output('stderr', *STDERR{IO});
   eval {

@@ -16,7 +16,7 @@ use File::stat                  qw( stat );
 use FindBin                1.42 qw( $Bin $Script );
 use IO::File               1.08 qw( );
 use POSIX                  1.03 qw( S_ISREG );
-use Test                   1.13 qw( ok plan );
+use Test                   1.13 qw( ok plan skip );
 
 use lib $Bin;
 use test qw( DATA_DIR
@@ -571,6 +571,12 @@ TEST_36: {
 
 =cut
 
+my $if_MSWin = $^O =~ m/MSWin/ ? 'Skip if under MSWin' : '';
+if ($if_MSWin) {
+        skip($if_MSWin, 1, 1, "v1/2 check ( 1)" );
+        skip($if_MSWin, 1, 1, "v1/2 check ( 2)" );
+}
+else
 {
   save_output('stderr', *STDERR{IO});
   ok(evcheck(sub {

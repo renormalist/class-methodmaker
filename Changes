@@ -1,5 +1,9 @@
 Revision History for Class::MethodMaker (versions 2)
 
+2.14	Feb 15 2009
+	- Fix Incorrect value checking in set_sub_name, introduced in
+	  v2.13 (#41994) (Jens Rehsack)
+
 2.13	Dec 02 2008
 	- Improve diagnostics and avoid crash with bad arguments.
           (Lubomir Rintel)

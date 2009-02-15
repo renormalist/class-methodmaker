@@ -7,7 +7,7 @@ MODULE = Class::MethodMaker PACKAGE = Class::MethodMaker
 int
 set_sub_name(SV *sub, char *pname, char *subname, char *stashname)
   INIT:
-    if (!SvTRUE(ST(1)) || !SvTRUE(ST(2)) || !SvTRUE(ST(3)) || !SvTRUE(ST(4)))
+    if (!SvTRUE(ST(0)) || !SvTRUE(ST(1)) || !SvTRUE(ST(2)) || !SvTRUE(ST(3)))
       XSRETURN_UNDEF;
   CODE:
     CvGV((GV*)SvRV(sub)) = gv_fetchpv(stashname, TRUE, SVt_PV);

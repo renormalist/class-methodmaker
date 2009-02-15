@@ -57,7 +57,7 @@ BEGIN {
 # -------------------------------------
 
 our $PACKAGE = 'Class-MethodMaker';
-our $VERSION = '2.14';
+our $VERSION = '2.15';
 
 # -------------------------------------
 # CLASS CONSTRUCTION

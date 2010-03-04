@@ -24,7 +24,7 @@ require 5.006;
 use strict;
 use warnings;
 
-use Exporter;
+use base qw( Exporter );
 our @EXPORT_OK = qw( INTEGER );
 
 # ----------------------------------------------------------------------------

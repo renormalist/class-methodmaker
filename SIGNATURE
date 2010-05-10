@@ -14,14 +14,14 @@ not run its Makefile.PL or Build.PL.
 -----BEGIN PGP SIGNED MESSAGE-----
 Hash: SHA1
 
-SHA1 a822d590f56f617cb23cf827caaec3f1e97da99a Changes
+SHA1 a557e59a401a9635752b0b8a649c995944a524fe Changes
 SHA1 b684a759c6fcf6378506173aec3dedec843a3696 Generate.pm
 SHA1 efa8cb615886410be8de15f5a6925697f624d278 INSTALL
-SHA1 e8a64bd4340f5046ca339fd821fa8efc26f5b29e MANIFEST
+SHA1 cf6a392361ad119496ff9205dafe4ab72d4394f2 MANIFEST
 SHA1 57082e147b77092b33b57411451a6b9030823f95 MANIFEST.SKIP
-SHA1 1685072f58804e7a212bfcfbe42a635e55889edc META.yml
-SHA1 bcc0eb369709f11c51663333cbc1dafe049cb3bc Makefile.PL
-SHA1 3d15b1aed91b53e60cf737264af25a6f503dbc89 MethodMaker.xs
+SHA1 cb34444c63493fcc305792e2f4ce11aac8226c8c META.yml
+SHA1 eceaf9c21ce600ed653d0b5bdc0cbbadde16c7b9 Makefile.PL
+SHA1 bcdbe850216b8d70c2d9c7b32550860572196a82 MethodMaker.xs
 SHA1 a79be83e67bf815b27b226ad1f2403a7d2390e0c README
 SHA1 bf8192c64eff9a9356b0e45ef812457c7d672883 TODO
 SHA1 c1fa07c05e01abd3456a21972ef20b5e0880bc4c benchmark/lexical.pl
@@ -31,23 +31,22 @@ SHA1 b5316820246e0845b0a1f44c77c852b41009011b components/array.m
 SHA1 b9cab903b9a7c522d6d9f6c8a210716e5c49201a components/hash.m
 SHA1 3799c8fda252617e827ae3cf6b4f15426c8fb279 components/scalar.m
 SHA1 b3bf6a2c2660ba6cac156411bae40c9af9f3ed59 configure
-SHA1 ff41a37084f5f8f73f34da34c07ec5ff499c4343 end.pod
+SHA1 f5fb33855314a85e7142a80d451e3f29c2eed4aa end.pod
 SHA1 d39160a9f9faf6a3036888015958afd5e6360dab examples/simple1
 SHA1 76e80cf28137e0d2e623c5ae740f62fc2e7eb83e generate.PL
 SHA1 da39a3ee5e6b4b0d3255bfef95601890afd80709 lib/Class/.placeholder
-SHA1 5e7a054bce608c9a4718dc32a84205774e471d18 lib/Class/MethodMaker.pm
-SHA1 e9cb30df1d39b6bf81a3eae841bba358220ae5b6 lib/Class/MethodMaker/Constants.pm
-SHA1 05441b91fe5e98a5adc6f31c87d635b80fa3e457 lib/Class/MethodMaker/Engine.pm
+SHA1 7c27c60fa3e60c1fd0baacb894b7f233902b4369 lib/Class/MethodMaker.pm
+SHA1 a74e06a0b77dcdfc9d22dde871a29189f89f61e9 lib/Class/MethodMaker/Constants.pm
+SHA1 61785f8ec2cadc997a745e852129204476817001 lib/Class/MethodMaker/Engine.pm
 SHA1 58dba4e3ee75fda97d12a1dbd83cc5525f410c75 lib/Class/MethodMaker/OptExt.pm
 SHA1 350e418e58d45880b9767d9deb41f37e2b1a9ce9 lib/Class/MethodMaker/V1Compat.pm
-SHA1 c4ed60e219b8582ae5f9d4c2d4e5c63da90a1346 t/0-signature.t
 SHA1 2edb4c2a623e169a898cc754ab99483835cec50e t/array.t
 SHA1 cf7521c6e01eaa4a72210996a51b09b99dd27bfe t/basic.t
 SHA1 36f35089b3cdd95f16dcbe5f42c43e31182cbb88 t/diffclass.t
 SHA1 e4a4a3eb109145be7e8323476acc1f79af702786 t/hash.t
 SHA1 c1c5c7bc50fd8c72d33ecd3470a2217edd0241ab t/new.t
-SHA1 91e1bca16495461ea447c44f17f3d19b756e946a t/redefine-warnings.t
-SHA1 46332dbc223396c9fa80e57eefaca61f163471c6 t/scalar.t
+SHA1 71d7feda890fe251b2faf4667c372365fb11bb4d t/redefine-warnings.t
+SHA1 2dd73da448f5858989ac471c37271811e8fb28b0 t/scalar.t
 SHA1 77682285d4d29db2c49b7fc40485a1209067925b t/test.pm
 SHA1 732e5dd8fbc6e826bbc55f7366e74715fe8f8a47 t/test_v1.pm
 SHA1 de96e569ca75f94ba14b8c8f9036d1a6aaa47855 t/v1_abstract.t
@@ -81,7 +80,7 @@ SHA1 c9105cb7d439b524207ddbfdd5804c5ef7332790 t/v1_tie_scalar.t
 -----BEGIN PGP SIGNATURE-----
 Version: GnuPG v1.4.9 (GNU/Linux)
 
-iEYEARECAAYFAkk14PYACgkQrQV5awgKugdOUACg5HKPsFZN5WSYKezVuC3ITzaI
-XmgAoKGEeyZhL2pDKcV5I6a/36pCz0s4
-=0/kz
+iEYEARECAAYFAkvoi80ACgkQrQV5awgKugcLXgCg6Z2zwCHEzW4hGN2ln5jXm3ez
+2mkAoKyrMe0QDwUzKqunte7IAyrL/hwc
+=nLco
 -----END PGP SIGNATURE-----

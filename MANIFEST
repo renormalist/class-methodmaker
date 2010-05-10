@@ -24,7 +24,6 @@ META.yml
 MethodMaker.xs
 README
 SIGNATURE
-t/0-signature.t
 t/array.t
 t/basic.t
 t/diffclass.t

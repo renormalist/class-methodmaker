@@ -1,5 +1,11 @@
 Revision History for Class::MethodMaker (versions 2)
 
+2.16	May 11 2010
+	- Drop signature self test in order to fix rt#57359
+        - fix missing use base (Yan Fitterer / Martyn J. Pearce)
+        - fix case of "LICENSE" key and upgrade Makefile.PL
+          (cpanservice@chorny.net)
+
 2.15	Feb 15 2009
 	- Skip some tests on MSWin (#16601)
 

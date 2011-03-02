@@ -1,5 +1,16 @@
 Revision History for Class::MethodMaker (versions 2)
 
+2.17	Mar 02 2011
+        - Just an intermediate release!
+          (in order to get help on fixing Class::MethodMaker for 5.14)
+        - already fixed breakage with 5.13.3 (rt#66196)
+          (CvGV is now an rvalue, so use CvGV_set instead of assigning
+          directly -- credits to ANDK, rafl and Zefram)
+        - added test for no warnings to additionally be able to bisect
+          annoying warnings since 5.13.2
+        - Stay tuned -- 2.18 will hopefully completely revitalize C:MM
+          for Perl 5.13+.
+
 2.16	May 11 2010
 	- Drop signature self test in order to fix rt#57359
         - fix missing use base (Yan Fitterer / Martyn J. Pearce)

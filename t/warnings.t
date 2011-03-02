@@ -20,7 +20,7 @@ use test qw( DATA_DIR
              evcheck );
 
 use vars qw(@MYWARNINGS);
-local $SIG{__WARN__} = sub { push @MYWARNINGS, $_[0] };
+BEGIN { $SIG{__WARN__} = sub { push @MYWARNINGS, $_[0] }; }
 
 BEGIN {
   # 1 for compilation test,

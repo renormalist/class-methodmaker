@@ -61,4 +61,5 @@ t/v1_static_list.t
 t/v1_tie_hash.t
 t/v1_tie_list.t
 t/v1_tie_scalar.t
+t/warnings.t
 TODO

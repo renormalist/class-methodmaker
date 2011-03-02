@@ -1,3 +1,4 @@
+#!perl -w
 # (X)Emacs mode: -*- cperl -*-
 
 use strict;

@@ -10,4 +10,4 @@ lib/Class/MethodMaker/scalar.pm
 pm_to_blib
 Class-MethodMaker-*.*
 MANIFEST.bak
-
+MYMETA.yml

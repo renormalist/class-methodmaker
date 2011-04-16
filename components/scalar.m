@@ -133,7 +133,8 @@ sub scalar {
     if exists $options->{store_cb};
 
   # V1 Compatibility
-  my ($list, $key_create) = @{$options}{qw/ _value_list key_create/}
+  my ($list, $key_create);
+  ($list, $key_create) = @{$options}{qw/ _value_list key_create/}
     if exists $options->{_value_list};
 
   # the method definitions ------------

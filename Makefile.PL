@@ -83,7 +83,7 @@ WriteMakefile1(
   MIN_PERL_VERSION => '5.006',
   META_MERGE => {
     resources => {
-      repository => 'http://github.com/renormalist/class-methodmaker',
+      repository => 'git://github.com/renormalist/class-methodmaker.git',
     },
   },
   #BUILD_REQUIRES => {

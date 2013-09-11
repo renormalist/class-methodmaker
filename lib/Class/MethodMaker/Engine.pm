@@ -460,7 +460,7 @@ The basic data structure to use for the component, e.g., C<scalar>.
 
 =item compname
 
-Component name.  The name must be a valid identifier, i.e., a continguous
+Component name.  The name must be a valid identifier, i.e., a continuous
 non-empty string of word (C<\w>) characters, of which the first may not be a
 digit.
 
@@ -692,7 +692,7 @@ sub create_methods {
 # -------------------------------------
 
 # Find the class to add the methods to.  I'm assuming that it would be the
-# first class in the caller() stack that's not a subsclass of MethodMaker.  If
+# first class in the caller() stack that's not a subclass of MethodMaker.  If
 # you want something more sophisticated implement it --- and call
 # create_methods, specifying exactly the target class.  If you can think of a
 # better way of determining the target class, let me know!
@@ -842,7 +842,7 @@ will be created.
 
 =item -hash
 
-The contructor will accept as arguments a list of pairs, from component name
+The constructor will accept as arguments a list of pairs, from component name
 to initial value.  For each pair, the named component is initialized by
 calling the method of the same name with the given value.  E.g.,
 
@@ -878,7 +878,7 @@ so even if the C<*> method is renamed or removed, this will still work.
 
 =item -init
 
-This option causes the new method to call an initializor method.  The method
+This option causes the new method to call an initializer method.  The method
 is called C<init> (original, eh?) by default, but the option may be given an
 alternative value.  The init method is passed any arguments that were passed
 to the constructor, but the method is invoked on the newly constructed
@@ -891,7 +891,7 @@ Constructing with new1 involves an implicit call to C<init>, whilst
 constructing with new2 involves an implicit call to C<bob> (I<instead> of
 C<init>).
 
-It is the responsiblity of the user to ensure that an C<init> method (or
+It is the responsibility of the user to ensure that an C<init> method (or
 whatever name) is defined.
 
 =item -singleton
@@ -985,7 +985,7 @@ sub new {
     [ abstract => [ qw / foo bar baz / ] ];
 
 This creates a number of methods that will die if called.  This is intended to
-support the use of abstract methods, that must be overidden in a useful
+support the use of abstract methods, that must be overridden in a useful
 subclass.
 
 =cut

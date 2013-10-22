@@ -12,7 +12,7 @@ This class is for internal implementation only.  It is not a public API.
 
 =head1 DESCRIPTION
 
-Class::MethodMaker version 2 strives for backward-compatiblity with version 1
+Class::MethodMaker version 2 strives for backward-compatibility with version 1
 as far as possible.  That is to say, classes built with version 1 should work
 with few if any changes.  However, the calling conventions for building new
 classes are significantly different: this is necessary to achieve a greater
@@ -37,7 +37,7 @@ interface).
 
 The nearest equivalent to each 1 component (slot) available in version 2 is
 shown below using the indicated data-structures & options to create a
-component called C<a> that mimicks the V1 component behaviour as closely as
+component called C<a> that mimics the V1 component behaviour as closely as
 possible:
 
 =over 4
@@ -49,7 +49,7 @@ possible:
 
 =item boolean
 
-Boolean is available as a backwards compatiblity hack, but there is currently
+Boolean is available as a backwards compatibility hack, but there is currently
 no V2 equivalent.  It is likely that some replacement mechanism will be
 introduced in the future, but that it will be incompatible with the version 1
 boolean.
@@ -639,7 +639,7 @@ my $gc_join = '';
 #       rename     ) The rename hashref, as set up by rename above
 #       local_opts ) An option hash.  This is initially empty, it is the job
 #                    of the subr to add/subtract items to this as necessary.
-#                    Items may/shall acummulate as options are invoked on a
+#                    Items may/shall accumulate as options are invoked on a
 #                    single typecall.
 #   rephrase
 #     Subr to rephrase arguments to a type call.  If defined, this subr is
@@ -803,7 +803,7 @@ use constant V1COMPAT =>
                        option   => sub {
                          my ($type, $opt, $rename, $local_opts) = @_;
                          # Let's face it, the V1 i/f, with it's
-                         # store-if-it's-a-coderef-else-retrieve semanntics
+                         # store-if-it's-a-coderef-else-retrieve semantics
                          # is rather broken.  Which is why we engage in such
                          # hackery...
                          $local_opts->{read_cb} =

@@ -23,7 +23,6 @@ MANIFEST.SKIP
 META.yml
 MethodMaker.xs
 README
-SIGNATURE
 t/array.t
 t/basic.t
 t/diffclass.t

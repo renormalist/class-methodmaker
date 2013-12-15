@@ -1,5 +1,9 @@
 Revision History for Class::MethodMaker (versions 2)
 
+2.19	Dec 15 2013
+        - Fix 5.19 incompatibility - RT#88934 (Zefram)
+        - small distro polishing
+
 2.18	Apr 16 2011
         - Fix 5.14 incompatibility - RT#66196 (Nicholas Clark)
 

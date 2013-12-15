@@ -152,6 +152,7 @@ the array max (so new items will not be appended)
 
           '*'        =>
           sub : method {
+	    my $z = \@_;   # work around stack problems
             my $want = wantarray;
             print STDERR "W: ", $want, ':', join(',',@_),"\n"
               if DEBUG;

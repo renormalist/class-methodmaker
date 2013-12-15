@@ -167,6 +167,7 @@ to a provided value, if appropriate).
 =cut
 
     ( '*'        => sub : method {
+		      my $z = \@_;   # work around stack problems
                       if ( @_ == 1 ) {
                         %%V1COMPAT_ON%%
                         if ( $v1object and ! exists $_[0]->{$name} ) {

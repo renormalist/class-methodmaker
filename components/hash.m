@@ -156,6 +156,7 @@ more efficient passing mechanism for large numbers of values.
 
           '*'        =>
           sub : method {
+	    my $z = \@_;   # work around stack problems
             my $want = wantarray;
             print STDERR "W: ", $want, ':', join(',',@_),"\n"
               if DEBUG;

@@ -1,5 +1,9 @@
 Revision History for Class::MethodMaker (versions 2)
 
+2.20	Feb 03 2014
+        - drop t/v1*.t unit tests due to license issue
+          https://github.com/renormalist/class-methodmaker/issues/2
+
 2.19	Dec 15 2013
         - Fix 5.19 incompatibility - RT#88934 (Zefram)
         - small distro polishing

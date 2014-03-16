@@ -4,7 +4,7 @@ package Class::MethodMaker::Constants;
 
 =head1 NAME
 
-Class::MethodMaker::Constants
+Class::MethodMaker::Constants - The Constants Class for Class::MethodMaker
 
 =head1 SYNOPSIS
 

@@ -3,8 +3,8 @@ name:               Class-MethodMaker
 version:            2.15
 abstract:           a module for creating generic methods
 author:
-    - Martyn J. Pearce 
-license:            unknown
+    - Martyn J. Pearce
+license:            perl
 distribution_type:  module
 configure_requires:
     ExtUtils::MakeMaker:  0

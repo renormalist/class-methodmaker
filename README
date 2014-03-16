@@ -47,9 +47,11 @@ Public Repository:
 
 Copyright: 
 
-    Copyright (c) 2004, 2003, 2002, 2001, 2000 Martyn J. Pearce.  This program
-    is free software; you can redistribute it and/or modify it under the same
-    terms as Perl itself.
+    Copyright (c) 2014, 2013, 2012, 2010, 2009, 2008, 2004, 2003,
+    2002, 2001, 2000 Martyn J. Pearce and others.
+
+    This program is free software; you can redistribute it and/or
+    modify it under the same terms as Perl itself.
 
     Copyright (c) 1996 Organic Online. All rights reserved. This program is
     free software; you can redistribute it and/or modify it under the same

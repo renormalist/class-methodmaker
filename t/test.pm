@@ -140,6 +140,8 @@ use FindBin                  1.42 qw( $Bin );
 use POSIX                    1.02 qw( );
 use Test                    1.122 qw( ok skip );
 
+use File::Temp;
+
 # ----------------------------------------------------------------------------
 
 sub rel2abs {
@@ -395,7 +397,7 @@ sub save_output {
   my $tmpfh  = do { local *F; *F; };
   my $savefh = do { local *F; *F; };
 
-  my $tmpnam = POSIX::tmpnam;
+  my $tmpnam = File::Temp::tmpnam();
   sysopen $tmpfh, $tmpnam, O_RDWR | O_CREAT | O_EXCL;
   unlink $tmpnam;
   select((select($tmpfh), $| = 1)[0]);
@@ -523,7 +525,7 @@ BEGIN {
     };
 
   *tmpnam = sub {
-    my $tmpnam = POSIX::tmpnam;
+    my $tmpnam = File::Temp::tmpnam();
 
     if (@_) {
       push @tmpfns, [ $tmpnam, $_[0] ];
@@ -584,7 +586,7 @@ Name of temporary dir.
 
 my @tmpdirs;
 sub tempdir {
-  my $tempdir = POSIX::tmpnam;
+  my $tempdir = File::Temp::tmpnam();
   mkdir $tempdir, 0700
     or die "Failed to create temporary directory $tempdir: $!\n";
 

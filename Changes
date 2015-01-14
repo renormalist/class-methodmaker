@@ -1,5 +1,8 @@
 Revision History for Class::MethodMaker (versions 2)
 
+2.22	Jan 14 2015
+        - use File::Temp::tmpnam as needed in Android (Brian Fraser)
+
 2.21	Mar 16 2014
         - sync with Debian patches - RT#91658
         - fix copyright and license entries - RT#43463

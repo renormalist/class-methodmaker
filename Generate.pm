@@ -1,5 +1,9 @@
 package Generate;
 
+use 5.006;
+use strict;
+use warnings;
+
 use File::Spec::Functions qw( catfile );
 use File::Basename        qw( basename );
 

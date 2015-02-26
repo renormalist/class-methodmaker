@@ -2,7 +2,7 @@ benchmark/lexical.pl
 Changes
 cmmg.pl
 components/array.m
-components/CommonMethods.pm
+components/CommonMethods.pmt
 components/hash.m
 components/scalar.m
 configure

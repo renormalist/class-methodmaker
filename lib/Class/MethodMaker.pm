@@ -2,18 +2,22 @@
 
 package Class::MethodMaker;
 
+use strict;
+use warnings;
+
 use Class::MethodMaker::Constants qw( );
 use Class::MethodMaker::Engine    qw();
 
 # Make this line self-contained so MakeMaker can eval() it.
-our $VERSION = '2.22';
+our $VERSION = '2.23';
 our $PACKAGE = 'Class-MethodMaker';
+our $AUTOLOAD;
 
 use XSLoader qw();
 XSLoader::load 'Class::MethodMaker', $VERSION;
 
 sub AUTOLOAD {
-  ($x = $AUTOLOAD) =~ s/^Class::MethodMaker/Class::MethodMaker::Engine/;
+  (my $x = $AUTOLOAD) =~ s/^Class::MethodMaker/Class::MethodMaker::Engine/;
   goto &$x(@_);
 }
 

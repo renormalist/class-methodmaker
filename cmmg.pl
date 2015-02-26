@@ -143,7 +143,7 @@ END
                  $t = $import{$fn};
                } else {
                  $t = $import{$fn} =
-                   read_file(catfile COMP_DIR, "${fn}.pm");
+                   read_file(catfile COMP_DIR, "${fn}.pmt");
                }
 
                $t =~ s!^!$i!mg

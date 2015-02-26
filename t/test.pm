@@ -2,6 +2,9 @@
 
 package test;
 
+use strict;
+use warnings;
+
 =head1 NAME
 
 test - tools for helping in test suites (not including running externalprograms).

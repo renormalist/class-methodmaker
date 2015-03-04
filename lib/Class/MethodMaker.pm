@@ -31,7 +31,7 @@ __END__
 
 =head1 NAME
 
-Class::MethodMaker - Create generic methods for OO Perl
+Class::MethodMaker - Create generic methods for OO Perl [DEPRECATED]
 
 =head1 SYNOPSIS
 
@@ -41,6 +41,12 @@ Class::MethodMaker - Create generic methods for OO Perl
     ];
 
 =head1 DESCRIPTION
+
+This module is now deprecated, as there are better more module solutions
+that are actively maintained.
+A good module to consider first is L<Moo>.
+If you have more complex requirements, then have a look at L<Moose>.
+For very lightweight OO needs, you could also look at L<Class::Tiny>.
 
 This module solves the problem of having to continually write accessor
 methods for your objects that perform standard tasks.
@@ -783,6 +789,9 @@ please contact the maintainer.
 L<Class::MethodMaker::Engine>, L<Class::MethodMaker::scalar>,
 L<Class::MethodMaker::array>, L<Class::MethodMaker::hash>,
 L<Class::MethodMaker::V1Compat>
+
+Other OO modules in decreasing order of compexity:
+L<Moose>, L<Moo>, L<Class::Tiny>.
 
 =cut
 

@@ -82,6 +82,7 @@ if ( $macosx ) {
 WriteMakefile1(
   MIN_PERL_VERSION => '5.006',
   META_MERGE => {
+    x_deprecated => 1,
     resources => {
       repository => 'git://github.com/renormalist/class-methodmaker.git',
     },

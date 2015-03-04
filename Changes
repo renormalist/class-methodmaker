@@ -1,6 +1,7 @@
 Revision History for Class::MethodMaker (versions 2)
 
 2.23	Feb ?? 2015
+        - Flagged the module as deprecated, both in doc and metadata.
         - Use strict and warnings everywhere.
         - renamed CommonMethods.pm to CommonMethods.pmt, as it's a
           template for module code. CPANTS was assuming it's a module

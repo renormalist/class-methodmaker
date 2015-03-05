@@ -1,10 +1,10 @@
 Revision History for Class::MethodMaker (versions 2)
 
-2.23	Feb ?? 2015
-        - Use strict and warnings everywhere.
+2.23	Mar 05 2015
+        - Use strict and warnings everywhere (Neil Bowers)
         - renamed CommonMethods.pm to CommonMethods.pmt, as it's a
           template for module code. CPANTS was assuming it's a module
-          from the name, and failing it.
+          from the name, and failing it (Neil Bowers)
 
 2.22	Jan 14 2015
         - use File::Temp::tmpnam as needed in Android (Brian Fraser)

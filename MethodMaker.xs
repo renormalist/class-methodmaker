@@ -26,3 +26,5 @@ set_sub_name(SV *sub, char *pname, char *subname, char *stashname)
     GvNAMELEN(CvGV((GV*)SvRV(sub))) = strlen(subname);
 #endif
     RETVAL = 1;
+  OUTPUT:
+    RETVAL

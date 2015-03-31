@@ -1,5 +1,8 @@
 Revision History for Class::MethodMaker (versions 2)
 
+2.24	Mar 31 2015
+        - fix missing OUTPUT section - RT#103113 (Zefram)
+
 2.23	Mar 05 2015
         - Use strict and warnings everywhere (Neil Bowers)
         - renamed CommonMethods.pm to CommonMethods.pmt, as it's a
